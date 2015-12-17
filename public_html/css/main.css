@@ -3,11 +3,6 @@
     src: url(../fonts/lemonade.ttf);
 }
 
-h1{
-    
-    font-family: lemonade;
-    
-}
 
 body {
     background: url(../img/blackandwhite1.png);
@@ -21,35 +16,72 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
-
+/*---------------------Header------------------------------------*/
 #header{
     
     background-color: #fff;
     /*font-family: lemonade;*/
     color: #000;
-    max-width:100%;
+    /*max-width:100%;*/
     height: 150px;
     
 }
 
 #header-navbar{
     
-    padding-top: 100px;
-    padding-left: 150px;
+    padding-top: 90px;
+    padding-left: 250px;
     background-color: #fff;
 }
 
-
+#header-tittle{
+    
+    padding-top: 40px;
+    padding-left: 100px;
+    font-family: lemonade;
+    
+}
 
 #brand-image{
     
    max-width:100%;
-    height: 120px;
+    height: 110px;
 }
 
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    
+    color: #4E013D;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #4E013D;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #4E013D;
+}
+
+.form-control input:hover ,  .form-control input:focus , .form-control:focus:hover{
+    
+     color: #4E013D;
+}
 
 
+.navbar-default .navbar-form input:focus{
+  border-color:  #4E013D;
+}
 
+.navbar-default .navbar-form button:hover{
+  border-color:  #4E013D;
+  background-color: #fff
+}
 
+/*------------Pincipal----------------------------------->*/
 
+#principal{
+    background-color: #fff;
+    
+    
+}
