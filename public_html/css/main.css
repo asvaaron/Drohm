@@ -1,18 +1,51 @@
+@font-face {
+    font-family: lemonade;
+    src: url(../fonts/lemonade.ttf);
+}
+
+h1{
+    
+    font-family: lemonade;
+    
+}
+
+body {
+    background: url(../img/blackandwhite1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#header{
+    
+    background-color: #fff;
+    /*font-family: lemonade;*/
+    color: #000;
+    max-width:100%;
+    height: 150px;
+    
+}
+
+#header-navbar{
+    
+    padding-top: 100px;
+    padding-left: 150px;
+    background-color: #fff;
+}
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 
-
-
-
-
-
-
-
-
-
+#brand-image{
+    
+   max-width:100%;
+    height: 120px;
+}
 
 
 
